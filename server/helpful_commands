@@ -1,0 +1,23 @@
+# Install express
+npm install express
+
+# Install express type
+npm install @types/express -D
+
+# Install and initialize typescript modules - generates tsconfig.json
+npm install ts-node -D
+npm install typescript -D
+npx tsc --init
+
+# Run typescript code
+npx ts-node src/server.ts
+
+# Install and run typescript code development run environment
+npm install ts-node-dev -D
+npx ts-node-dev src/server.ts
+
+# Execute knex migration
+npx knex --knexfile knexfile.ts migrate:latest
+
+# Execute knex migration alias on package.json
+npm run knex:migrate
