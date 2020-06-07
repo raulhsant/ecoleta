@@ -1,0 +1,5 @@
+# Creates react-app with typescript
+npx create-react-app web --template=typescript
+
+# Run development server
+npm start

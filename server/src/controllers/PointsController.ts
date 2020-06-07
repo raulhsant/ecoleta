@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import knex from '../database/connection';
 
 class PointsController {
+  // TODO: Should return every point if no query parameters are passed?
   async index(request: Request, response: Response) {
     const { city, uf, items } = request.query;
     const parsedItems = String(items)
