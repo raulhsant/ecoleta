@@ -83,11 +83,6 @@
     "@types/qs" "*"
     "@types/serve-static" "*"
 
-"@types/hapi__joi@^17.1.2":
-  version "17.1.2"
-  resolved "https://registry.yarnpkg.com/@types/hapi__joi/-/hapi__joi-17.1.2.tgz#f547d45b5d33677d1807ec217aeee832dc7e6334"
-  integrity sha512-2S6+hBISRQ5Ca6/9zfQi7zPueWMGyZxox6xicqJuW1/aC/6ambLyh+gDqY5fi8JBuHmGKMHldSfEpIXJtTmGKQ==
-
 "@types/mime@*":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.2.tgz#857a118d8634c84bba7ae14088e4508490cd5da5"
@@ -1235,9 +1230,9 @@ load-json-file@^1.0.0:
     strip-bom "^2.0.0"
 
 lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 loud-rejection@^1.0.0:
   version "1.6.0"
